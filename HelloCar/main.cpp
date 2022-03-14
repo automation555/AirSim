@@ -17,8 +17,12 @@ STRICT_MODE_ON
 int main()
 {
     using namespace msr::airlib;
+    
+    
 
     std::cout << "Make sure settings.json has \"SimMode\"=\"Car\" at root. Press Enter to continue." << std::endl;
+    std::cin.get();
+    std::cin.get();
     std::cin.get();
 
     // This assumes you are running DroneServer already on the same machine.
